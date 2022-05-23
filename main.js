@@ -1,3 +1,4 @@
-function min(a, b) {
-  return a < b ? a : b;
-}
+"use strict";
+let test = String(12345);
+
+console.log(test);
