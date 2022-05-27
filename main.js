@@ -1,4 +1,6 @@
 "use strict";
-let test = String(12345);
 
-console.log(test);
+let num = 123;
+let str = String(num);
+console.log(str);
+console.log(str.length);
