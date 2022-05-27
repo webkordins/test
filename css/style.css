@@ -1,12 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  background-color: rgb(142, 247, 203);
+  height: 100%;
+}
+
+body {
+  background-color: rgb(226, 238, 233);
   text-align: center;
 }
 
+main {
+  background-color: rgb(159, 228, 153);
+}
+
+ul {
+  list-style: none;
+}
+
 .container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100%;
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
+  height: 100%;
 }
 
 h1 {
@@ -16,5 +39,13 @@ h1 {
 
 h2 {
   color: cornflowerblue;
+  font-size: 20px;
+}
+
+footer {
+  background-color: red;
+}
+
+p {
   font-size: 20px;
 }
